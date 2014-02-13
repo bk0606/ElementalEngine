@@ -22,7 +22,7 @@ define(
         SimpleSprite.prototype.createBall = function () {
             // Метод extend возвращает новый объект,
             // который умеет создавать конкретные элементы
-            var Ball = GameObject.extend([
+            var PhysicalGraphicObj = GameObject.extend([
                 SystemsEnum.Physics,
                 SystemsEnum.Graphics
             ]);
@@ -34,13 +34,13 @@ define(
             // массива компонентов (2 арг-т) определятся системой, которой
             // мы расшири базовый объект, некоторые общие,
             // например Position нужен и для физики и для графики
-            Ball.createObject('metalBall1', [
+            PhysicalGraphicObj.createObject('metalBall1', [
                 new Position(150, 0, 0),
                 new Display(new GraphicalEngine.Sprite(texMetalBall)),
                 new Velocity(1, 0)
             ]);
 
-            Ball.createObject('metalBall2', [
+            PhysicalGraphicObj.createObject('metalBall2', [
                 new Position(150, 0, 0),
                 new Display(new GraphicalEngine.Sprite(texMetalBall)),
                 new Velocity(-1, 0)
