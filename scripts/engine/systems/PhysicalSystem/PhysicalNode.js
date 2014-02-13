@@ -4,6 +4,7 @@
 define(
     function () {
         /**
+         * Node is a list of component, used by system
          * @param {Position.Point} components.Position
          * @param {Velocity.Point} components.Velocity
          * @constructor

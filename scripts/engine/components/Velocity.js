@@ -4,7 +4,8 @@
 define(
     function () {
         /**
-         * @param {Point} velocity
+         * @param {number} x Velocity
+         * @param {number} y Velocity
          * @constructor
          */
         function Velocity(x, y) {

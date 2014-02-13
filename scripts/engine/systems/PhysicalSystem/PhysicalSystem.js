@@ -21,6 +21,9 @@ define(
         PhysicalSystem.Node = PhysicalNode;
 
         /**
+         * (!!!) So far use just velocity to move objects
+         * in future performs more operations (!!!)
+         *
          * Main loop for compute physical properties.
          * @param {number} time
          */

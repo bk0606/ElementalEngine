@@ -4,6 +4,7 @@
 define(
     function () {
         /**
+         * NOT USED YET
          * Main container of the game objects.
          * @constructor
          */
