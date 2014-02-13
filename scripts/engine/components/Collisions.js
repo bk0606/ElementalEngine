@@ -4,7 +4,7 @@
 define(
     function () {
         /**
-         * Only just concept
+         * NOT USED YET
          * @constructor
          */
         function Collisions(collisionPoligon) {
