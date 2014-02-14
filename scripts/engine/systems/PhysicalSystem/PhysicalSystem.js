@@ -5,7 +5,7 @@ define(
     ['./PhysicalNode'],
     function (PhysicalNode) {
         var nullNode = new PhysicalNode({
-                position: {}, velocity: {}
+                Position: {}, Velocity: {}
             });
 
         /**

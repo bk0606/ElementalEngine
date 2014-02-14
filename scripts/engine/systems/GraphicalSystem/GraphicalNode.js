@@ -4,10 +4,11 @@
 define(
     function () {
         /**
+         * @class GraphicalNode
          * Node is a list of component, used by system
-         * @param {Position.Point} components.Position
-         * @param {Display.Point} components.Display
-         * @constructor
+         * @param {Object} components Use next list of components:
+         * <b> {@link Position},
+         * <b> {@link Display}
          */
         function GraphicalNode(components) {
             this.position = components.Position;
@@ -18,3 +19,7 @@ define(
         return GraphicalNode;
     }
 );
+
+/**
+
+ * @constructor*/

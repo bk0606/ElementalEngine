@@ -18,6 +18,8 @@ define(
 
         /**
          * Create concrete element of the game.
+         * MUST pass the necessary components for used systems
+         * (that were specified when extension GameObject)
          * @param {string} name
          * @param {Array} components
          * @returns {GameElement}

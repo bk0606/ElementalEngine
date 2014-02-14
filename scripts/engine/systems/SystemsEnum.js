@@ -9,8 +9,14 @@ define(
          * @enum {number}
          */
         return {
-            'Graphics': 0,
-            'Physics': 1
+            /**
+             * Want to components of this node: {@link GraphicalNode}
+             */
+            Graphics: 0,
+            /**
+             * Want to components of this node: {@link PhysicalNode}
+             */
+            Physics: 1
         };
     }
 );

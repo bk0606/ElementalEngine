@@ -37,13 +37,13 @@ define(
             PhysicalGraphicObj.createObject('metalBall1', [
                 new Position(150, 0, 0),
                 new Display(new GraphicalEngine.Sprite(texMetalBall)),
-                new Velocity(1, 0)
+                new Velocity(3, 1)
             ]);
 
             PhysicalGraphicObj.createObject('metalBall2', [
                 new Position(150, 0, 0),
                 new Display(new GraphicalEngine.Sprite(texMetalBall)),
-                new Velocity(-1, 0)
+                new Velocity(-1, -5)
             ]);
 
             TaskManager.getInstance().run();
